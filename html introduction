@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Html Page</title>
+</head>
+<body>
+
+<h1>First Heading</h1>
+<p>My first ever paragraph.</p>
+
+</body>
+</html>
