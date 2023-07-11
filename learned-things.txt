@@ -66,3 +66,18 @@ Use the HTML usemap attribute of the <img> element to point to an image map
 <picture>	Defines a container for multiple image resources
 
 Use the HTML <link> element to insert a favicon
+
+Use the HTML <ul> element to define an unordered list
+Use the HTML <ol> element to define an ordered list
+Use the CSS list-style-type property to define the list item marker
+Use the HTML <li> element to define a list item
+Lists can be nested
+List items can contain other HTML elements
+Use the CSS property float:left to display a list horizontally
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines a term in a description list
+<dd>	Describes the term in a description list
+
