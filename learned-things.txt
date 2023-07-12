@@ -143,3 +143,35 @@ CSS float property
 CSS flexbox
 CSS grid
 
+The <kbd> element defines keyboard input
+The <samp> element defines sample output from a computer program
+The <code> element defines a piece of computer code
+The <var> element defines a variable in programming or in a mathematical expression
+The <pre> element defines preformatted text
+
+In HTML there are some semantic elements that can be used to define different parts of a web page:  
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+Examples of where a <section> element can be used:
+Chapters
+Introduction
+News items
+Contact information
+Examples of where the <article> element can be used:
+Forum posts
+Blog posts
+User comments
+Product cards
+Newspaper articles
+
