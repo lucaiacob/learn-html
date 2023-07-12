@@ -81,3 +81,65 @@ Use the CSS property float:left to display a list horizontally
 <dt>	Defines a term in a description list
 <dd>	Describes the term in a description list
 
+The HTML class attribute specifies one or more class names for an element
+Classes are used by CSS and JavaScript to select and access specific elements
+The class attribute can be used on any HTML element
+The class name is case sensitive
+Different HTML elements can point to the same class name
+JavaScript can access elements with a specific class name with the getElementsByClassName() method
+
+The id attribute is used to specify a unique id for an HTML element
+The value of the id attribute must be unique within the HTML document
+The id attribute is used by CSS and JavaScript to style/select a specific element
+The value of the id attribute is case sensitive
+The id attribute is also used to create HTML bookmarks
+JavaScript can access an element with a specific id with the getElementById() method
+
+The HTML <iframe> tag specifies an inline frame
+The src attribute defines the URL of the page to embed
+Always include a title attribute (for screen readers)
+The height and width attributes specify the size of the iframe
+Use border:none; to remove the border around the iframe
+
+<img src="picture.jpg">	The "picture.jpg" file is located in the same folder as the current page
+<img src="images/picture.jpg">	The "picture.jpg" file is located in the images folder in the current folder
+<img src="/images/picture.jpg">	The "picture.jpg" file is located in the images folder at the root of the current web
+<img src="../picture.jpg">	The "picture.jpg" file is located in the folder one level up from the current folder
+File paths are used when linking to external files, like:
+Web pages
+Images
+Style sheets
+JavaScripts
+
+The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+The metadata will not be displayed on the page, but is used by browsers (how to display content or reload page), by search engines (keywords), and other web services.
+Example:
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="author" content="John Doe">
+	<meta http-equiv="refresh" content="30">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+The <head> element is a container for metadata (data about data)
+The <head> element is placed between the <html> tag and the <body> tag
+The <title> element is required and it defines the title of the document
+The <style> element is used to define style information for a single document
+The <link> tag is most often used to link to external style sheets
+The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings
+The <script> element is used to define client-side JavaScripts
+The <base> element specifies the base URL and/or target for all relative URLs in a page
+
+<header> - Defines a header for a document or a section
+<nav> - Defines a set of navigation links
+<section> - Defines a section in a document
+<article> - Defines an independent, self-contained content
+<aside> - Defines content aside from the content (like a sidebar)
+<footer> - Defines a footer for a document or a section
+<details> - Defines additional details that the user can open and close on demand
+<summary> - Defines a heading for the <details> element
+There are four different techniques to create multicolumn layouts. Each technique has its pros and cons:
+CSS framework
+CSS float property
+CSS flexbox
+CSS grid
+
