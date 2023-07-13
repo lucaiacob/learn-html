@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head lang="ro">
     <title>HTML Tutorial</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" href="mystyle.css">
@@ -298,6 +298,34 @@ footer {
   .menu, .main, .right {
     width: 100%;
   }
+}
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
 }
 
 </style>
@@ -683,6 +711,101 @@ z = x + y;
   <h2>Microsoft Edge</h2>
   <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
 </article>
+<article class="all-browsers">
+  <h1>Most Popular Browsers</h1>
+  <article class="browser">
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+  <article class="browser">
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+  <article class="browser">
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</article>
+<article>
+  <header>
+    <h1>What Does WWF Do?</h1>
+    <p>WWF's mission:</p>
+  </header>
+  <p>WWF's mission is to stop the degradation of our planet's natural environment, and build a future in which humans live in harmony with nature.</p>
+</article>
+<footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+<aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+<aside>
+<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+<p>My family a<h2>Places to Visit</h2>
+<p>Puglia's most famous sight is the unique conical houses (Trulli) found in the area around Alberobello, a declared UNESCO World Heritage Site.</p>
+
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>nd I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+<!-- This is a comment -->
+<!--
+  This is a long comment example. This is a long comment example.
+  This is a long comment example. This is a long comment example.
+-->
+<link rel="stylesheet" href="styles.css">
+p.intro {font-family:Verdana;font-size:16em;}
+body {
+  background-color: lightgrey;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-size: 16em;
+  color: black;
+}
+<script src="myscript.js">
+getElementById("Demo").innerHTML = "Hello";
+<!-- These two JavaScript statements will produce different results --> 
+getElementById("demo").innerHTML = "Hello";
+
+&entity_name;
+OR
+&#entity_number;
+
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
+
+<meta charset="UTF-8">
+<p>I will display A B C</p> 
+<p>I will display &#65; &#66; &#67;</p> 
+<h1>My First Emoji</h1>
+<p>&#128512;</p>
+<h1>Sized Emojis</h1>
+<p style="font-size:48px">
+&#128512; &#128516; &#128525; &#128151;
+</p>
+scheme://prefix.domain:port/path/filename
+
+<h2>HTML Forms</h2>
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
 
 </body>
 </html>
